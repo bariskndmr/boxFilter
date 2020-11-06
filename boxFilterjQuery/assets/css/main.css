@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  padding: 50px 0;
+  margin: 0 auto;
+  color: white;
+}
+
+.filter-section {
+  text-align: center;
+}
+
+.filter-section nav {
+  padding: 0 0 15px 0;
+}
+
+.filter-section nav button {
+  cursor: pointer;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.filter-section nav button:not(:last-child) {
+  margin: 0 10px 0 0;
+}
+
+.filter-section .filter-box-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.filter-section .filter-box-div .filter-box {
+  display: none;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+}
+
+.filter-section .filter-box-div .filter-box.red {
+  background-color: red;
+}
+
+.filter-section .filter-box-div .filter-box.green {
+  background-color: green;
+}
+
+.filter-section .filter-box-div .filter-box.orange {
+  background-color: orange;
+}
+
+.filter-section .filter-box-div.all .filter-box {
+  display: block;
+}
+
+.filter-section .filter-box-div.red .filter-box.red {
+  display: block;
+}
+
+.filter-section .filter-box-div.green .filter-box.green {
+  display: block;
+}
+
+.filter-section .filter-box-div.orange .filter-box.orange {
+  display: block;
+}
+/*# sourceMappingURL=main.css.map */
